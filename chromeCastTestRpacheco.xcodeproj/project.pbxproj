@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		112B2317B619A25E8F4FE4E1 /* Pods_chromeCastTestRpacheco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D9B81D517188C249F5F2AB /* Pods_chromeCastTestRpacheco.framework */; };
+		AB3C9FB227FE175400CBA974 /* CastManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3C9FB127FE175400CBA974 /* CastManager.swift */; };
+		AB3C9FBE27FF7E6200CBA974 /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AB3C9FBD27FF7E5E00CBA974 /* video2.mp4 */; };
+		AB3C9FC027FF7E6B00CBA974 /* video3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AB3C9FBF27FF7E6B00CBA974 /* video3.mp4 */; };
+		AB3C9FC227FF7E7200CBA974 /* video4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AB3C9FC127FF7E7200CBA974 /* video4.mp4 */; };
+		ABDBE0F927FC841200D5B123 /* chromeCastTestRpachecoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDBE0F827FC841200D5B123 /* chromeCastTestRpachecoApp.swift */; };
+		ABDBE0FD27FC841400D5B123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABDBE0FC27FC841400D5B123 /* Assets.xcassets */; };
+		ABDBE10027FC841400D5B123 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABDBE0FF27FC841400D5B123 /* Preview Assets.xcassets */; };
+		ABDBE10727FC8BD200D5B123 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDBE10627FC8BD200D5B123 /* PlayerView.swift */; };
+		ABDBE10A27FC8D4D00D5B123 /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDBE10927FC8D4D00D5B123 /* CustomVideoPlayer.swift */; };
+		ABDBE10C27FC8DBD00D5B123 /* CustomControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDBE10B27FC8DBD00D5B123 /* CustomControlsView.swift */; };
+		ABDBE10E27FC95F500D5B123 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDBE10D27FC95F500D5B123 /* PlayerViewModel.swift */; };
+		ABDBE11227FC96E200D5B123 /* CustomPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDBE11127FC96E200D5B123 /* CustomPlayerView.swift */; };
+		ABDBE11427FC971500D5B123 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDBE11327FC971500D5B123 /* Media.swift */; };
+		ABDBE11C27FCE30000D5B123 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABDBE11B27FCE30000D5B123 /* ExternalAccessory.framework */; };
+		ABDBE12027FCF43E00D5B123 /* CastButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDBE11F27FCF43E00D5B123 /* CastButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31D9B81D517188C249F5F2AB /* Pods_chromeCastTestRpacheco.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chromeCastTestRpacheco.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		915E134B86E79662EFA81FE4 /* Pods-chromeCastTestRpacheco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chromeCastTestRpacheco.debug.xcconfig"; path = "Target Support Files/Pods-chromeCastTestRpacheco/Pods-chromeCastTestRpacheco.debug.xcconfig"; sourceTree = "<group>"; };
+		AB3C9FB127FE175400CBA974 /* CastManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastManager.swift; sourceTree = "<group>"; };
+		AB3C9FBD27FF7E5E00CBA974 /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
+		AB3C9FBF27FF7E6B00CBA974 /* video3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video3.mp4; sourceTree = "<group>"; };
+		AB3C9FC127FF7E7200CBA974 /* video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video4.mp4; sourceTree = "<group>"; };
+		ABDBE0F527FC841200D5B123 /* chromeCastTestRpacheco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chromeCastTestRpacheco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDBE0F827FC841200D5B123 /* chromeCastTestRpachecoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chromeCastTestRpachecoApp.swift; sourceTree = "<group>"; };
+		ABDBE0FC27FC841400D5B123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABDBE0FF27FC841400D5B123 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABDBE10627FC8BD200D5B123 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		ABDBE10827FC8D2800D5B123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		ABDBE10927FC8D4D00D5B123 /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
+		ABDBE10B27FC8DBD00D5B123 /* CustomControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomControlsView.swift; sourceTree = "<group>"; };
+		ABDBE10D27FC95F500D5B123 /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
+		ABDBE11127FC96E200D5B123 /* CustomPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPlayerView.swift; sourceTree = "<group>"; };
+		ABDBE11327FC971500D5B123 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		ABDBE11A27FCE30000D5B123 /* chromeCastTestRpacheco.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = chromeCastTestRpacheco.entitlements; sourceTree = "<group>"; };
+		ABDBE11B27FCE30000D5B123 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		ABDBE11F27FCF43E00D5B123 /* CastButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastButton.swift; sourceTree = "<group>"; };
+		EE54A73C734554A5B90E32FF /* Pods-chromeCastTestRpacheco.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chromeCastTestRpacheco.release.xcconfig"; path = "Target Support Files/Pods-chromeCastTestRpacheco/Pods-chromeCastTestRpacheco.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABDBE0F227FC841200D5B123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDBE11C27FCE30000D5B123 /* ExternalAccessory.framework in Frameworks */,
+				112B2317B619A25E8F4FE4E1 /* Pods_chromeCastTestRpacheco.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C451649D854748BC63BB199 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				915E134B86E79662EFA81FE4 /* Pods-chromeCastTestRpacheco.debug.xcconfig */,
+				EE54A73C734554A5B90E32FF /* Pods-chromeCastTestRpacheco.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ABDBE0EC27FC841200D5B123 = {
+			isa = PBXGroup;
+			children = (
+				ABDBE0F727FC841200D5B123 /* chromeCastTestRpacheco */,
+				ABDBE0F627FC841200D5B123 /* Products */,
+				7C451649D854748BC63BB199 /* Pods */,
+				ED144F9FD1C72D531342D297 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ABDBE0F627FC841200D5B123 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABDBE0F527FC841200D5B123 /* chromeCastTestRpacheco.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABDBE0F727FC841200D5B123 /* chromeCastTestRpacheco */ = {
+			isa = PBXGroup;
+			children = (
+				ABDBE11A27FCE30000D5B123 /* chromeCastTestRpacheco.entitlements */,
+				ABDBE11527FC9F6A00D5B123 /* Media */,
+				ABDBE11027FC96B400D5B123 /* SwiftUIViews */,
+				ABDBE10F27FC96A000D5B123 /* UIKitViews */,
+				ABDBE10827FC8D2800D5B123 /* Info.plist */,
+				ABDBE0F827FC841200D5B123 /* chromeCastTestRpachecoApp.swift */,
+				ABDBE10D27FC95F500D5B123 /* PlayerViewModel.swift */,
+				ABDBE0FC27FC841400D5B123 /* Assets.xcassets */,
+				ABDBE0FE27FC841400D5B123 /* Preview Content */,
+				ABDBE11F27FCF43E00D5B123 /* CastButton.swift */,
+				AB3C9FB127FE175400CBA974 /* CastManager.swift */,
+			);
+			path = chromeCastTestRpacheco;
+			sourceTree = "<group>";
+		};
+		ABDBE0FE27FC841400D5B123 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ABDBE0FF27FC841400D5B123 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ABDBE10F27FC96A000D5B123 /* UIKitViews */ = {
+			isa = PBXGroup;
+			children = (
+				ABDBE10627FC8BD200D5B123 /* PlayerView.swift */,
+			);
+			path = UIKitViews;
+			sourceTree = "<group>";
+		};
+		ABDBE11027FC96B400D5B123 /* SwiftUIViews */ = {
+			isa = PBXGroup;
+			children = (
+				ABDBE10B27FC8DBD00D5B123 /* CustomControlsView.swift */,
+				ABDBE10927FC8D4D00D5B123 /* CustomVideoPlayer.swift */,
+				ABDBE11127FC96E200D5B123 /* CustomPlayerView.swift */,
+			);
+			path = SwiftUIViews;
+			sourceTree = "<group>";
+		};
+		ABDBE11527FC9F6A00D5B123 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				ABDBE11327FC971500D5B123 /* Media.swift */,
+				AB3C9FBD27FF7E5E00CBA974 /* video2.mp4 */,
+				AB3C9FBF27FF7E6B00CBA974 /* video3.mp4 */,
+				AB3C9FC127FF7E7200CBA974 /* video4.mp4 */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		ED144F9FD1C72D531342D297 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABDBE11B27FCE30000D5B123 /* ExternalAccessory.framework */,
+				31D9B81D517188C249F5F2AB /* Pods_chromeCastTestRpacheco.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABDBE0F427FC841200D5B123 /* chromeCastTestRpacheco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDBE10327FC841400D5B123 /* Build configuration list for PBXNativeTarget "chromeCastTestRpacheco" */;
+			buildPhases = (
+				2FEB03AE75B926A61607A986 /* [CP] Check Pods Manifest.lock */,
+				ABDBE0F127FC841200D5B123 /* Sources */,
+				ABDBE0F227FC841200D5B123 /* Frameworks */,
+				ABDBE0F327FC841200D5B123 /* Resources */,
+				1EEB2628B87C8E4995D96420 /* [CP] Embed Pods Frameworks */,
+				F824BB49128DA6692990130B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chromeCastTestRpacheco;
+			productName = chromeCastTestRpacheco;
+			productReference = ABDBE0F527FC841200D5B123 /* chromeCastTestRpacheco.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABDBE0ED27FC841200D5B123 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					ABDBE0F427FC841200D5B123 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = ABDBE0F027FC841200D5B123 /* Build configuration list for PBXProject "chromeCastTestRpacheco" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABDBE0EC27FC841200D5B123;
+			productRefGroup = ABDBE0F627FC841200D5B123 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABDBE0F427FC841200D5B123 /* chromeCastTestRpacheco */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABDBE0F327FC841200D5B123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3C9FC227FF7E7200CBA974 /* video4.mp4 in Resources */,
+				ABDBE10027FC841400D5B123 /* Preview Assets.xcassets in Resources */,
+				AB3C9FBE27FF7E6200CBA974 /* video2.mp4 in Resources */,
+				AB3C9FC027FF7E6B00CBA974 /* video3.mp4 in Resources */,
+				ABDBE0FD27FC841400D5B123 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EEB2628B87C8E4995D96420 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chromeCastTestRpacheco/Pods-chromeCastTestRpacheco-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chromeCastTestRpacheco/Pods-chromeCastTestRpacheco-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-chromeCastTestRpacheco/Pods-chromeCastTestRpacheco-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FEB03AE75B926A61607A986 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chromeCastTestRpacheco-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F824BB49128DA6692990130B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chromeCastTestRpacheco/Pods-chromeCastTestRpacheco-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chromeCastTestRpacheco/Pods-chromeCastTestRpacheco-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-chromeCastTestRpacheco/Pods-chromeCastTestRpacheco-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABDBE0F127FC841200D5B123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDBE10C27FC8DBD00D5B123 /* CustomControlsView.swift in Sources */,
+				ABDBE10727FC8BD200D5B123 /* PlayerView.swift in Sources */,
+				ABDBE12027FCF43E00D5B123 /* CastButton.swift in Sources */,
+				ABDBE11227FC96E200D5B123 /* CustomPlayerView.swift in Sources */,
+				AB3C9FB227FE175400CBA974 /* CastManager.swift in Sources */,
+				ABDBE10A27FC8D4D00D5B123 /* CustomVideoPlayer.swift in Sources */,
+				ABDBE10E27FC95F500D5B123 /* PlayerViewModel.swift in Sources */,
+				ABDBE11427FC971500D5B123 /* Media.swift in Sources */,
+				ABDBE0F927FC841200D5B123 /* chromeCastTestRpachecoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ABDBE10127FC841400D5B123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABDBE10227FC841400D5B123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABDBE10427FC841400D5B123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 915E134B86E79662EFA81FE4 /* Pods-chromeCastTestRpacheco.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = chromeCastTestRpacheco/chromeCastTestRpacheco.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"chromeCastTestRpacheco/Preview Content\"";
+				DEVELOPMENT_TEAM = DWHPM2LNZ4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = chromeCastTestRpacheco/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rpacheco.Pruebas.chromeCastTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABDBE10527FC841400D5B123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE54A73C734554A5B90E32FF /* Pods-chromeCastTestRpacheco.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = chromeCastTestRpacheco/chromeCastTestRpacheco.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"chromeCastTestRpacheco/Preview Content\"";
+				DEVELOPMENT_TEAM = DWHPM2LNZ4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = chromeCastTestRpacheco/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rpacheco.Pruebas.chromeCastTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABDBE0F027FC841200D5B123 /* Build configuration list for PBXProject "chromeCastTestRpacheco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDBE10127FC841400D5B123 /* Debug */,
+				ABDBE10227FC841400D5B123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABDBE10327FC841400D5B123 /* Build configuration list for PBXNativeTarget "chromeCastTestRpacheco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDBE10427FC841400D5B123 /* Debug */,
+				ABDBE10527FC841400D5B123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABDBE0ED27FC841200D5B123 /* Project object */;
+}
